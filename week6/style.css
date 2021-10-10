@@ -31,12 +31,12 @@ a:link{
   color: #AB5843;
 }
 
-a:hover{
-  color: #C99487;
-}
-
 a:visited{
   color: #D2B48C;
+}
+
+a:hover{
+  color: #C99487;
 }
 
 button{
@@ -45,6 +45,7 @@ button{
   text-align: center;
   color: #D7CC6F;
   font-family: courier new;
+  font-size: 15px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -54,5 +55,17 @@ button:hover{
   text-align: center;
   color: #D7CC6F;
   font-family: courier new;
+  font-size: 15px;
   padding: 10px 10px 10px 10px;
+}
+
+button:active{
+  background-color: #3F5D57;
+  border: 0px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 15px;
 }
