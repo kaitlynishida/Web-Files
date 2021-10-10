@@ -30,9 +30,27 @@
 
   <section id="form">
     <form>
-      <button id="back">Back to Hello Me</button>
+      <p><button id="mybutton">What is the most important information?</button></p>
+      <p><button id="mybutton2">The End</button></p>
     </form>
+
   </section>
 
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybutton").addEventListener("click", contentClicked);
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+
+    function buttonClicked(){
+      alert("Thanks for reading!");
+    }
+
+    function contentClicked(){
+      alert("Excited to learn more?");
+      document.getElementById("content").style.background = "#D2B48C";
+    }
+
+  </script>
+  
 </body>
 </html>
