@@ -1,0 +1,43 @@
+body{
+  background-color: #F6E7E0;
+}
+
+section{
+  background-color: #AB5843;
+  border: #143931 solid 8px;
+  border-radius: 15px;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+}
+
+button{
+  font-family: courier new;
+  font-size: 12px;
+  border: 0px;
+  border-radius: 3px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #143931;
+  color: #D2B48C;
+}
+
+button:hover{
+  font-family: courier new;
+  background-color: #43615B;
+  border: 0px;
+  border-radius: 5px;
+}
+
+button:active{
+  font-family: courier new;
+  color: #DDC9AE;
+  border: 0px;
+  border-radius: 5px;
+}
+
+h1{
+  font-family: courier new;
+  color: #DDC9AE;
+
+}
