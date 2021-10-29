@@ -1,0 +1,74 @@
+body{
+  background-color: #F6E7E0;
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: red;
+}
+
+#selfcare{
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+#selfcare img{
+  width: 100vw;
+  position: relative;
+  bottom: 100px;
+}
+
+#selfcare h1{
+  z-index: 1;
+  position: relative;
+  font-size: 3.5vw;
+  font-family: courier new;
+  color: #143931;
+  top: 8vh;
+  margin: 0 0 0 57vw;
+}
+
+#startpage h1{
+  text-align: center;
+  font-family: courier new;
+  color: #143931;
+  font-size: 3vw;
+}
+
+button{
+  background-color: #143931;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 2vw;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 25px 35vw;
+}
+
+button:hover{
+  background-color: #3F5D57;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 2vw;
+  padding: 10px 10px 10px 10px;
+}
+
+button:active{
+  background-color: #3F5D57;
+  border: 0px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 1.75vw;
+  padding: 8px 8px 8px 8px;
+  margin: 2.5px 0 0 37vw;
+}
