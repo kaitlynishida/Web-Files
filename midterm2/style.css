@@ -1,3 +1,8 @@
+body{
+  background: #F6E7E0;
+  font-family: courier new;
+}
+
 #tabs, #todo{
   display: flex;
   margin: 10vh 10vw 0 10vw;
@@ -6,20 +11,27 @@
 .days{
   flex-grow: 1;
   width: auto;
-  border: 1px solid black;
+  border-top: 5px solid #143931;
+  border-left: 1px solid #143931;
+  border-right: 1px solid #143931;
+  border-bottom: 5px solid #143931;
+  color: #143931;
+  background-color: #C9A197;
 }
 
 #todo{
   display: flex;
   margin: 0 10vw 0 10vw;
-  padding-top: 100px;
+  padding-top: 50px;
+  border: 5px solid #143931;
+  border-top: none;
+  background-color: #AB5843;
+  color: #D2B48C;
 }
 
 #music, .list{
   flex-grow: 1;
   width: auto;
-  background-color: pink;
-  border: 1px solid black;
   max-width: 50%;
 }
 
@@ -27,10 +39,12 @@ h2{
   margin-top: 45px;
   padding-bottom: 0;
   font-size: 2vw;
+  margin-left: 10px;
 }
 
 .active{
-  background-color: pink;
+  background-color: #AB5843;
+  border-bottom: none;
 }
 
 img{
@@ -40,4 +54,40 @@ img{
   display: block;
   margin: auto;
   margin-top: 2vh;
+}
+
+.done{
+  background-color: #143931;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+}
+
+.done:hover{
+  background-color: #3F5D57;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 11px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+.done:active{
+  background-color: #3F5D57;
+  border: 0px;
+  text-align: center;
+  color: #D7CC6F;
+  font-family: courier new;
+  font-size: 11px;
+  padding: 8px 8px 8px 8px;
+  margin-left: 7px;
+  margin-top: 7px;
 }

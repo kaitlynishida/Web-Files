@@ -15,6 +15,7 @@ function setActive(e){
   prevday = document.getElementsByClassName("active")[0].id;
   if(prevday != undefined){
     document.getElementById(prevday).classList.toggle("active");
+  //  document.getElementById(days + "list").style.display = "none";
   }
 
   if(e.target.tagName == "H2"){
@@ -22,8 +23,14 @@ function setActive(e){
   }else{
     e.target.classList.toggle("active");
   }
-
+} 
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  document.getElementById('music').innerHTML = "<img src='assets/" + day + ".jpg' >";
+  //document.getElementById('music').innerHTML = "<img src='assets/" + day + ".jpg' >";
+
+
+document.getElementById("done").addEventListener("click", buttonClicked);
+
+function buttonClicked(){
+  alert("Great Job! Keep it up!! :)");
 }
