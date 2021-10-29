@@ -23,14 +23,16 @@ function setActive(e){
   }else{
     e.target.classList.toggle("active");
   }
-} 
+
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  //document.getElementById('music').innerHTML = "<img src='assets/" + day + ".jpg' >";
+  document.getElementById('music').innerHTML = "<img src='assets/" + day + ".jpg' >";
 
+}
 
-document.getElementById("done").addEventListener("click", buttonClicked);
+document.getElementsByClassName("done").addEventListener('click', buttonClicked);
 
 function buttonClicked(){
+  //console.log("hello world");
   alert("Great Job! Keep it up!! :)");
 }
