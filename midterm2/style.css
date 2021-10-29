@@ -1,0 +1,43 @@
+#tabs, #todo{
+  display: flex;
+  margin: 10vh 10vw 0 10vw;
+}
+
+.days{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid black;
+}
+
+#todo{
+  display: flex;
+  margin: 0 10vw 0 10vw;
+  padding-top: 100px;
+}
+
+#music, .list{
+  flex-grow: 1;
+  width: auto;
+  background-color: pink;
+  border: 1px solid black;
+  max-width: 50%;
+}
+
+h2{
+  margin-top: 45px;
+  padding-bottom: 0;
+  font-size: 2vw;
+}
+
+.active{
+  background-color: pink;
+}
+
+img{
+  max-height: 80%;
+  max-width: 80%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+}
