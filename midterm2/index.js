@@ -6,6 +6,8 @@ for(i=0; i<document.getElementsByClassName("days").length; i++){
   document.getElementsByClassName("days")[i].innerHTML = "<h2>" + days[i] + "</h2>";
   document.getElementsByClassName("days")[i].addEventListener('click', setActive, false);
   document.getElementsByClassName("days")[i].id = days[i];
+
+
 }
 
 document.getElementById('Sunday').classList.toggle('active');
@@ -26,11 +28,11 @@ function setActive(e){
 
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  document.getElementById('music').innerHTML = "<img src='assets/" + day + ".jpg' >";
+  document.getElementById('music').innerHTML = "<img src='assets/" + images + ".jpg' >";
 
 }
 
-document.getElementsByClassName("done").addEventListener('click', buttonClicked);
+document.getElementsByClassName("button").addEventListener('click', buttonClicked);
 
 function buttonClicked(){
   //console.log("hello world");
