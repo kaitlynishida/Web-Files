@@ -29,7 +29,7 @@ body{
   color: #D2B48C;
 }
 
-#music, .list{
+#image, .list{
   flex-grow: 1;
   width: auto;
   max-width: 50%;
@@ -60,7 +60,7 @@ img{
   margin-top: 2vh;
 }
 
-.button{
+button{
   background-color: #143931;
   border: 0px;
   border-radius: 3px;
@@ -71,7 +71,7 @@ img{
   padding: 10px 10px 10px 10px;
 }
 
-.button:hover{
+button:hover{
   background-color: #3F5D57;
   border: 0px;
   border-radius: 3px;
@@ -82,7 +82,7 @@ img{
   padding: 10px 10px 10px 10px;
 }
 
-.button:active{
+button:active{
   background-color: #3F5D57;
   border: 0px;
   text-align: center;

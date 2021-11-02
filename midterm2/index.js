@@ -11,7 +11,7 @@ for(i=0; i<document.getElementsByClassName("days").length; i++){
 }
 
 document.getElementById('Sunday').classList.toggle('active');
-document.getElementById("music").innerHTML = "<img src='assets/" + images[0] + "' >";
+document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "' >";
 
 function setActive(e){
   prevday = document.getElementsByClassName("active")[0].id;
@@ -28,11 +28,17 @@ function setActive(e){
 
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  document.getElementById('music').innerHTML = "<img src='assets/" + images + ".jpg' >";
+  document.getElementById('images').innerHTML = "<img src='assets/" + images + ".jpg' >";
 
 }
 
-document.getElementsByClassName("button").addEventListener('click', buttonClicked);
+document.getElementById("one").addEventListener('click', buttonClicked);
+document.getElementById("two").addEventListener('click', buttonClicked);
+document.getElementById("three").addEventListener('click', buttonClicked);
+document.getElementById("four").addEventListener('click', buttonClicked);
+document.getElementById("five").addEventListener('click', buttonClicked);
+document.getElementById("six").addEventListener('click', buttonClicked);
+document.getElementById("seven").addEventListener('click', buttonClicked);
 
 function buttonClicked(){
   //console.log("hello world");
