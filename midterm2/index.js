@@ -1,5 +1,5 @@
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let images = ["billie.jpg", "cage.jpg", "sza.jpg", "strokes.jpg", "doja.jpg", "rihanna.jpg", "tyler.jpg"];
+let images = ["billie.jpg", "cage.jpg", "sza.jpg", "strokes.jpg", "doja.jpg", "rihanna.jpg", "tyler.jpeg"];
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("days").length; i++){
@@ -17,6 +17,7 @@ function setActive(e){
   prevday = document.getElementsByClassName("active")[0].id;
   if(prevday != undefined){
     document.getElementById(prevday).classList.toggle("active");
+    document.getElementById(prevday.toLowerCase() + "sc").classList.toggle("active");
   //  document.getElementById(days + "list").style.display = "none";
   }
 
@@ -27,8 +28,11 @@ function setActive(e){
   }
 
   day = document.getElementsByClassName('active')[0].id;
+  document.getElementById(day.toLowerCase() + "sc").classList.toggle("active");
+  console.log(day.toLowerCase() + "sc");
+  day = days.indexOf(day);
   console.log(day);
-  document.getElementById('images').innerHTML = "<img src='assets/" + images + ".jpg' >";
+  document.getElementById('image').innerHTML = "<img src='assets/" + images[day] + " ' >";
 
 }
 
