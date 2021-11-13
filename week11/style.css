@@ -1,0 +1,183 @@
+#hero h1{
+  z-index:1;
+  color: white;
+  position: absolute;
+  font-size: 2.5vw;
+  font-family: courier new;
+  margin-top: 28vw;
+  margin-left: 3vw;
+}
+
+#hero img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#about img{
+  width: 50vw;
+  height: 50vw;
+  margin-left: 24vw;
+  border: 5px solid #143931;
+}
+
+#about h2{
+  text-align: center;
+  font-size: 3vw;
+  color: #143931;
+}
+
+#about h3{
+  text-align: left;
+  margin-left: 5vw;
+  font-size: 2vw;
+  color: #143931;
+}
+
+#about ol{
+  text-align: left;
+  margin-left: 5vw;
+  font-size: 1.5vw;
+  color: #AB5843;
+}
+
+#about ul{
+  text-align: left;
+  margin-left: 5vw;
+  font-size: 1.5vw;
+  color: #AB5843;
+}
+
+.cooper img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 1000px;
+  margin-right: 22vw;
+}
+
+.cooper:nth-child(2) img{
+  object-position: 0px 0px;
+}
+
+.cooper:nth-child(3) img{
+  object-position: 0px 0px;
+}
+.cooper{
+  flex-grow:1;
+  text-align: center;
+  color: #AB5843;
+}
+
+#coop{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#cu img{
+  width: 50%;
+  height: 50%;
+  margin-left: 25vw;
+  object-fit: cover;
+}
+
+#cu h2{
+  text-align: center;
+  font-size: 3vw;
+  color: #143931;
+}
+
+#cu h3{
+  margin-left: 3vw;
+  font-size: 2vw;
+  color: #143931;
+}
+
+#cu p{
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  color: #AB5843;
+}
+
+#cu ul{
+  font-size: 1.5vw;
+  margin-left: 3vw;
+  color: #AB5843;
+}
+
+
+#contact{
+
+}
+
+#phonecontact{
+  width: 50%;
+  height: 50%;
+  margin-left: 25vw;
+  object-fit: cover;
+}
+
+#contactdiv h1{
+  text-align: center;
+  font-size: 3vw;
+  color: #143931;
+}
+
+#contactdiv h2{
+  text-align: center;
+  font-size: 2vw;
+  color: #143931;
+}
+
+#contactdiv p{
+  text-align: center;
+  font-size: 1.5vw;
+  color: #AB5843;
+}
+
+#random{
+  text-align: center;
+  font-size: 2vw;
+  color: #143931;
+}
+
+#social img{
+  width:50px;
+  margin: 0px 10px 0px 10px;
+}
+
+#social{
+  display:flex;
+  width: 60%;
+  margin:auto;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+nav a{
+  font-family: courier new;
+  font-size: 20px;
+  font-weight: 300;
+  color: #143931;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #1f1b1b;
+}
+
+.active{
+  color: #AB5843;
+}
+
+body{
+  font-family: courier new;
+  margin-bottom: 100px;
+  background: #F6E7E0;
+}
