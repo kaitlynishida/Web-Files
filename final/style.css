@@ -132,6 +132,32 @@
   font-weight: 200;
 }
 
+#bloghead{
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#blogbody{
+  display: flex;
+  width: 68vw;
+  margin-left: 30vw;
+  /* margin-top: 20vh; */
+}
+
+#blog2head, #blog2head{
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#blog1body, #blog2body{
+  display: flex;
+  width: 68vw;
+  margin-left: 30vw;
+  /* margin-top: 20vh; */
+}
+
 #meimg, #buffimg{
   width: 45vw;
   margin-left: 3vw;
