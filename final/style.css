@@ -1,0 +1,152 @@
+.topbar{
+  position: fixed;
+  background-color: white;
+}
+
+#menu{
+  display: flex;
+  justify-content: center;
+}
+
+#home{
+  background-image: url('../final/assets/leeds.jpg');
+}
+
+#menuhome{
+  display:flex;
+  width: 25vw;
+  float: right;
+  flex-wrap: wrap;
+  margin-top: 1vw;
+  letter-spacing: 2px;
+
+}
+
+#menuhome a{
+  font-family: georgia;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#menu{
+  display:flex;
+  width: 30vw;
+  float: right;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+  letter-spacing: 2px;
+
+}
+
+#menu a{
+  font-family: georgia;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  text-decoration: none;
+}
+
+#homepagehome{
+  display:flex;
+  width: 50vw;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 2vw;
+}
+
+#homepagehome a{
+  font-size: 50px;
+  font-weight: 300;
+  color: white;
+  margin-left: px;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#homepage{
+  display:flex;
+  width: 100vw;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#homepage a{
+  font-size: 35px;
+  font-weight: 300;
+  color: #343434;
+  margin-left: 2vw;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+#homepage a:visited{
+  font-size: 50px;
+  font-weight: 300;
+  color: black;
+  margin-left: 2vw;
+  text-decoration: none;
+  text-shadow: 1px 1px #000000;
+}
+
+
+#mainlinks{
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+#mainlinks a{
+  font-size: 100px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#experiencebody{
+  display: flex;
+  width: 68vw;
+  margin-left: 25vw;
+  /* margin-top: 20vh; */
+}
+
+#experiencehead{
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#academicsbody{
+  display: flex;
+  width: 68vw;
+  margin-left: 25vw;
+  /* margin-top: 20vh; */
+}
+
+#academicshead{
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#meimg, #buffimg{
+  width: 45vw;
+  margin-left: 3vw;
+}
+
+h1, h2{
+  letter-spacing: 2px;
+}
+
+h3, h4{
+  letter-spacing: 1px;
+}
+
+body{
+  font-family: georgia;
+  margin: 0;
+  padding: 0;
+}
