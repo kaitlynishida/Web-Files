@@ -3,6 +3,10 @@
   background-color: white;
 }
 
+.active{
+  text-decoration: underline;
+}
+
 #menu{
   display: flex;
   justify-content: center;
@@ -14,7 +18,7 @@
 
 #menuhome{
   display:flex;
-  width: 25vw;
+  width: 30vw;
   float: right;
   flex-wrap: wrap;
   margin-top: 1vw;
@@ -29,14 +33,16 @@
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px 4px #000000;
+  margin-left: 20px;
 }
 
 #menu{
   display:flex;
-  width: 30vw;
+  width: 32vw;
   float: right;
   flex-wrap: wrap;
   margin-top: 2vw;
+  margin-right: 2.5vw;
   letter-spacing: 2px;
 
 }
@@ -47,6 +53,7 @@
   font-weight: 200;
   color: black;
   text-decoration: none;
+  margin-left: 15px;
 }
 
 #homepagehome{
@@ -104,63 +111,194 @@
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px 4px #000000;
+  margin-left: 30px;
+  margin-right: 30px;
+
 }
 
 #experiencebody{
   display: flex;
-  width: 68vw;
-  margin-left: 25vw;
+  width: 90vw;
+  margin-left: 10vw;
   /* margin-top: 20vh; */
 }
 
 #experiencehead{
-  font-size: 45px;
+  font-size: 50px;
   letter-spacing: 3px;
   font-weight: 200;
+  margin-top: 21vh;
+}
+
+#experiencetext{
+  margin: 20vh;
+  margin-left: 15vw;
 }
 
 #academicsbody{
   display: flex;
-  width: 68vw;
-  margin-left: 25vw;
+  width: 95vw;
+  margin-left: 10vw;
   /* margin-top: 20vh; */
 }
 
 #academicshead{
-  font-size: 45px;
+  font-size: 50px;
   letter-spacing: 3px;
   font-weight: 200;
+  margin-top: 21vh;
 }
 
-#bloghead{
-  font-size: 45px;
-  letter-spacing: 3px;
-  font-weight: 200;
+#academicstext{
+  margin: 20vh;
+  margin-left: 15vw;
 }
 
 #blogbody{
   display: flex;
-  width: 68vw;
-  margin-left: 30vw;
+  width: 90vw;
+  margin-left: 15vw;
   /* margin-top: 20vh; */
 }
 
-#blog2head, #blog2head{
-  font-size: 45px;
+#bloghead{
+  font-size: 50px;
   letter-spacing: 3px;
   font-weight: 200;
+  margin-top: 21vh;
+}
+
+#blogtext{
+  margin: 20vh;
+  margin-left: 15vw;
 }
 
 #blog1body, #blog2body{
   display: flex;
-  width: 68vw;
-  margin-left: 30vw;
+  width: 87vw;
+  margin-left: 16vw;
   /* margin-top: 20vh; */
+}
+
+#blog1head, #blog2head{
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin-top: 21vh;
+}
+
+#blog1text, #blog2text{
+  margin: 20vh;
+  margin-left: 15vw;
+}
+
+#aboutbody{
+  display: flex;
+  width: 95vw;
+  margin-left: 10vw;
+  /* margin-top: 20vh; */
+}
+
+#abouthead{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin-top: 22vh;
+}
+
+#abouttext{
+  margin: 20vh;
+  margin-left: 10vw;
+}
+
+.dropbtn{
+  background-color: white;
+  color: black;
+  /* padding: 2px; */
+  font-size: 20px;
+  font-family: georgia;
+  border: none;
+  margin-left: 15px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent{
+  display: none;
+  psotion: absolute;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 2px 2px 4px;
+  z-index: 1;
+}
+
+.dropdowncontent a{
+  font-size: 17px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover{
+  background-color: #DBDBDB;
+}
+
+.dropdown:hover .dropdowncontent{
+  display: block;
+}
+
+#contactbtn{
+  display: inline;
+  position: fixed;
+  margin-left: 13vw;
+  background-color: black;
+  padding: 10px;
+  padding-right: 25px;
+  border: none;
+}
+
+#contactbtn a{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+#contactbtn:hover{
+  background-color: #343434;
+}
+
+#contactbtn:active{
+  background-color: #343434;
+  padding: 8px;
+  padding-right: 20px;
 }
 
 #meimg, #buffimg{
   width: 45vw;
   margin-left: 3vw;
+}
+
+#katespade{
+  width: 15vw;
+  padding-bottom: 5vh;
+}
+
+#acc{
+  width: 13vw;
+  padding-bottom: 5vh;
+}
+
+#platos{
+  width: 15vw;
+  padding-bottom: 7vh;
+}
+
+b{
+  font-size: 20px;
 }
 
 h1, h2{
