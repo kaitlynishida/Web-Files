@@ -7,6 +7,78 @@
   text-decoration: underline;
 }
 
+.bottomnav{
+  display: flex;
+  width: 100vw;
+  background-color: #E8E8E8;
+  font-family: georgia;
+  color: black;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+#bottomleft{
+  margin-left: 7vw;
+  margin-bottom: 1vh;
+}
+
+#bottommiddle{
+  margin-left: 45vw;
+}
+
+#bottomright{
+  margin-left: 5vw;
+}
+
+#bottomleft a, #bottommiddle a, #bottomright a{
+  color: black;
+  text-decoration: none;
+}
+
+#bottomleft a:hover, #bottommiddle a:hover, #bottomright a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+#bottomleft a:visited, #bottommiddle a:visited, #bottomright a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#namelink{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#aboutlink{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#contactlink{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.bottomsocials{
+  background-color: #E8E8E8;
+}
+
+#btmsocial img{
+  width: 3vw;
+  margin: 0px 10px 0px 10px;
+  margin-bottom: 1vh;
+}
+
+#btmsocial{
+  display: flex;
+  width: 50%;
+  margin-left: 6vw;
+  /* margin: auto; */
+  justify-content: left;
+  flex-grow: 1;
+}
+
 #menu{
   display: flex;
   justify-content: center;
@@ -38,11 +110,11 @@
 
 #menu{
   display:flex;
-  width: 32vw;
+  width: 38vw;
   float: right;
   flex-wrap: wrap;
   margin-top: 2vw;
-  margin-right: 2.5vw;
+  /* margin-right: 2vw; */
   letter-spacing: 2px;
 
 }
@@ -68,7 +140,7 @@
   font-size: 50px;
   font-weight: 300;
   color: white;
-  margin-left: px;
+  /* margin-left: px; */
   text-decoration: none;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -84,7 +156,7 @@
   font-size: 35px;
   font-weight: 300;
   color: #343434;
-  margin-left: 2vw;
+  margin-left: 3vw;
   text-decoration: none;
   letter-spacing: 2px;
 }
@@ -151,7 +223,7 @@
 
 #academicstext{
   margin: 20vh;
-  margin-left: 15vw;
+  margin-left: 10vw;
 }
 
 #blogbody{
@@ -214,7 +286,7 @@
 .dropbtn{
   background-color: white;
   color: black;
-  /* padding: 2px; */
+  padding: 0;
   font-size: 20px;
   font-family: georgia;
   border: none;
@@ -228,7 +300,7 @@
 
 .dropdowncontent{
   display: none;
-  psotion: absolute;
+  position: absolute;
   background-color: white;
   min-width: 120px;
   box-shadow: 2px 2px 4px;
@@ -238,7 +310,7 @@
 .dropdowncontent a{
   font-size: 17px;
   color: black;
-  padding: 12px 16px;
+  padding: 7px 10px 7px 0px;
   text-decoration: none;
   display: block;
 }
@@ -251,13 +323,77 @@
   display: block;
 }
 
+.arrow{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: .5vw;
+}
+
+.left{
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: .5vw;
+}
+
+#continue a{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+#continue a:hover{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+#continue a:visited{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+#backarrow a{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+#backarrow a:hover{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+        text-decoration: none;
+}
+
+#backarrow a:visited{
+    font-family: georgia;
+    font-size: 17px;
+    color: black;
+        text-decoration: none;
+}
+
 #contactbtn{
   display: inline;
-  position: fixed;
-  margin-left: 13vw;
+  margin-left: 1vw;
   background-color: black;
-  padding: 10px;
-  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 22px;
   border: none;
 }
 
@@ -273,13 +409,102 @@
 
 #contactbtn:active{
   background-color: #343434;
-  padding: 8px;
+  padding: 6px;
   padding-right: 20px;
+  margin-right: 4px;
+  margin-top: 4px;
 }
 
-#meimg, #buffimg{
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  letter-spacing: 1px;
+}
+
+input[type=reset]{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-family: georgia;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover{
+  background-color: #343434;
+}
+
+.container{
+  /* margin: 20vh; */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#contactbody{
+  display: flex;
+  width: 95vw;
+  margin-left: 10vw;
+}
+
+#contacthead{
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  margin-top: 22vh;
+}
+
+#contacttext{
+  margin: 20vh 20vw 2vw 20vw;
+  margin-left: 10vw;
+  margin-right: 15vw;
+}
+
+#fnamelabel, #lnamelabel, #emaillabel, #messagelabel{
+  letter-spacing: 2px;
+}
+
+#social img{
+  width: 10vw;
+  margin: 0px 10px 35px 10px;
+}
+
+#social{
+  display: flex;
+  width: 50%;
+  margin-left: 26.5vw;
+  /* margin: auto; */
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#photos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 6vw;
+  margin-bottom: 10vh;
+}
+
+#photos img{
+  margin-top: 20vh;
+  width: 25vw;
+}
+
+#meimg{
   width: 45vw;
   margin-left: 3vw;
+}
+
+#buffimg{
+  width: 25vw;
 }
 
 #katespade{
@@ -295,6 +520,12 @@
 #platos{
   width: 15vw;
   padding-bottom: 7vh;
+  padding-top: 1vh;
+}
+
+#seniorpic{
+  width: 20vw;
+  margin-left: 2vw;
 }
 
 b{

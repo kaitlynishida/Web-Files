@@ -9,19 +9,97 @@
 <body>
   <section class="topbar">
     <div>
-    <nav id="menu">
-      <a href="experience.html">Experience</a>
-      <a href="academics.html">Academics</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
+      <nav id="menu">
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Portfolio</button>
+          <div class="dropdowncontent">
+            <a href="experience.html">Experience</a>
+            <a href="academics.html">Academics</a>
+            <a href="photography.html">Photography</a>
+          </div>
+        </div>
+        <a href="blog.html">Blog</a>
+      </nav>
 
     <h1 id="homepage">
-      <a href="index.html" class="active">Kaitlyn Ishida</a>
+      <a href="index.html">Kaitlyn Ishida</a>
     </h1>
     </div>
     </section>
 
-  <p>contact</p>
+    <section id="contactbody">
+      <div>
+        <h1 id="contacthead">Get in touch.</h1>
+      </div>
+      <div id= "contacttext" class="container">
+        <form action="action_page.php">
+          <label for="fname" id="fnamelabel">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First Name...">
+          <label for="lname" id="lnamelabel">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+          <label for="email" id="emaillabel">Email</label>
+          <input type="text" id="email" name="mail" placeholder="Email Address...">
+          <label for="message" id="messagelabel">Message</label>
+          <textarea id="subject" name="subject" placeholder="Leave me a message..."></textarea>
+          <input type="reset" value="Submit">
+        </form>
+      </section>
+
+      <section>
+        <div id="social">
+        <div class="socials">
+          <a href="https://www.instagram.com/kaitlynishida/"><img src="../final/assets/insta.png"></a>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.tiktok.com/@kaitlyn.ishida?"><img src="../final/assets/tiktok.png"></a>
+        </div>
+
+        <div class="socials">
+          <a href="https://twitter.com/Kaitlyn_Ishida"><img src="../final/assets/twitter.png"></a>
+        </div>
+        </div>
+    </section>
+
+    <section class="bottomnav">
+      <div id="bottomleft">
+        <h1><a href="index.html" id="namelink">Kaitlyn Ishida</a></h1>
+        <p id="address">995 Regent Dr</p>
+        <p id="address">Boulder, CO 80302</p>
+        <p>720.326.9500</p>
+      </div>
+
+      <div id="bottommiddle">
+        <h2><a href="about.html" id="aboutlink">About</a></h2>
+          <p><a href="experience.html">Experience</a></p>
+          <p><a href="academics.html">Academics</a></p>
+          <p><a href="photography.html">Photography</a></p>
+      </div>
+
+      <div id="bottomright">
+        <h2><a href="contact.html" id="contactlink">Contact</a></h2>
+        <p><a href="https://drive.google.com/file/d/1dFceUUKTIyQY-NrPLvnF40t1FUWxl4ea/view?usp=sharing">Resume</a></p>
+      </div>
+    </section>
+
+    <section class="bottomsocials">
+      <section>
+        <div id="btmsocial">
+        <div class="btmsocials">
+          <a href="https://www.instagram.com/kaitlynishida/"><img src="../final/assets/insta.png"></a>
+        </div>
+
+        <div class="btmsocials">
+          <a href="https://www.tiktok.com/@kaitlyn.ishida?"><img src="../final/assets/tiktok.png"></a>
+        </div>
+
+        <div class="btmsocials">
+          <a href="https://twitter.com/Kaitlyn_Ishida"><img src="../final/assets/twitter.png"></a>
+        </div>
+        </div>
+    </section>
+    </section>
 </body>
 
 </html>
